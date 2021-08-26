@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+*
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body
+{
+    background-image: url(alarm-clock.jpg);
+    align-items: center;
+}
+.container
+{
+    text-align: center;
+}
+button
+{
+    
+    background: rgb(129, 219, 255);
+    color: #fff;
+    border-radius: 30px;
+    border: none;
+    font-size: 32px;
+    padding: 8px 20px;
+    cursor: pointer;
+
+}
+button:hover
+{
+    background: rgb(77, 177, 223);
+    color: rgb(196, 222, 255);
+}
